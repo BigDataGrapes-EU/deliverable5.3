@@ -1,3 +1,3 @@
 module.exports = {
-  baseUrl: process.env.NODE_ENV === "production" ? "/deliverable5.3/" : "/"
+  publicPath: process.env.NODE_ENV === "production" ? "/deliverable5.3/" : "/"
 };
